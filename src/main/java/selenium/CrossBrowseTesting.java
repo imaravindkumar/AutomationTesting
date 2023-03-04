@@ -34,8 +34,9 @@ public class CrossBrowseTesting {
 				  driver = new ChromeDriver();		
 		}
 		
+		//To Maximize the browser
 		driver.manage().window().maximize();
-		
+		//Navigate to the URL
 		driver.navigate().to("https://www.softwaretestingo.com/");
 		System.out.println("Page Title :: "+driver.getTitle());
 		//To Quit the browser
