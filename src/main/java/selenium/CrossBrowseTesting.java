@@ -18,6 +18,7 @@ public class CrossBrowseTesting {
 		System.out.println("1. Chrome 2. Edge 3. Firefox 4. Internet Explorer 5. Safari ");
 		input = sc.nextInt();
 		WebDriver driver;
+		
 		//To Choose the user selected browsers
 		switch(input) {
 		case 1 : driver = new ChromeDriver();
